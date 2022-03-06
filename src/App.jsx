@@ -2,7 +2,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NumberFormat from 'react-number-format'
 import { Card } from 'react-bootstrap'
-import { useState, useEffect } from 'react/cjs/react.development'
+import { useState, useEffect } from 'react'
 import { YMaps, Map, Placemark } from 'react-yandex-maps'
 
 function App() {
