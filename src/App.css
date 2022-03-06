@@ -1,0 +1,54 @@
+.title,
+.subtitle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.card__wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.input {
+    width: 250px;
+    padding: 0 10px;
+    margin: 20px 20px 0 0;
+}
+
+.search {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.map__wrapper {
+    margin: 20px auto;
+    width: 1000px;
+    height: 500px;
+}
+
+@media (max-width: 992px) {
+    .map__wrapper {
+        width: 80%;
+        height: 300px;
+    }
+    .card__wrapper {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+    }
+    .card__item {
+        margin: 0px 10px 20px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title,
+    .subtitle {
+        font-size: 24px;
+    }
+}
